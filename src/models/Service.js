@@ -7,6 +7,9 @@ const ServiceSchema = new Schema({
 	price: {
 		type: String,
 	},
+	description: {
+		type: String,
+	},
 });
 
 const Service = model('Service', ServiceSchema);
